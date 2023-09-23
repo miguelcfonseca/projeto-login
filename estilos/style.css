@@ -17,6 +17,7 @@
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
+
 body, html {
     width: 100vw;
     height: 100vh;
@@ -40,6 +41,8 @@ section#login {
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section > div#imagem {
