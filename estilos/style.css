@@ -9,16 +9,17 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
-body {
+body, html {
     width: 100vw;
     height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--cor2);
 }
 
@@ -28,7 +29,7 @@ main {
     position: relative;
 }
 
-section {
+section#login {
     width: 250px;
     height: 515px;
     overflow: hidden;
