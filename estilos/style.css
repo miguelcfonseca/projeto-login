@@ -75,9 +75,11 @@ form > div.campo {
     border-radius: 5px;
 }
 
-form label {
+div.campo > label {
     display: none;
 }
+
+div.campo > input
 
 div.campo > i {
     color: white;
